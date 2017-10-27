@@ -18,8 +18,8 @@ def main():
     ])
 
     js_code.close()
-    headers = { "Content-type": "application/x-www-form-urlencoded" }
-    conn = http.client.HTTPConnection('closure-compiler.appspot.com')
+    headers = { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" }
+    conn = http.client.HTTPSConnection('closure-compiler.appspot.com')
     conn.request('POST', '/compile', params, headers)
     response = conn.getresponse()
     data = response.read()
