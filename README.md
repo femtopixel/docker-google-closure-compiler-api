@@ -24,9 +24,9 @@ optional arguments:
 
 ## Default values
 
-`--js` : /dev/stdin (input your code)
-`--js_output_file` : /dev/stdout (Prints compiled code in the shell)
-`--compilation_level` : WHITESPACE_ONLY
+- `--js` : /dev/stdin (input your code)
+- `--js_output_file` : /dev/stdout (Prints compiled code in the shell)
+- `--compilation_level` : WHITESPACE_ONLY
 
 Docker usage
 ------------
