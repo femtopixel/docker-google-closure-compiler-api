@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='google_closure_compiler_api',
     python_requires=">=3",
-    version='0.1.4',
+    version='0.1.5',
     packages=find_packages(),
     long_description=open("README.rst", 'r').read(),
     author="Jay MOULIN",

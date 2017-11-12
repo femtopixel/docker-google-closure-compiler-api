@@ -45,6 +45,7 @@ Install
 =======
 
 .. code::
+
     pip3 install google_closure_compiler_api
 
 Usage
