@@ -4,40 +4,41 @@ Google Closure Compiler API - Docker Image
 
 .. image:: https://img.shields.io/github/release/femtopixel/docker-google-closure-compiler-api.svg
     :alt: latest release
-    :align: left
+    :align: right
     :target: http://github.com/femtopixel/docker-google-closure-compiler-api/releases
 .. image:: https://img.shields.io/pypi/v/google-closure-compiler-api.svg
     :alt: PyPI version
-    :align: left
-    :target: https://pypi.python.org/pypi?:action=display&name=google-closure-compiler-api
+    :align: right
+    :target: https://pypi.org/project/google-closure-compiler-api/
 .. image:: https://img.shields.io/docker/pulls/femtopixel/google-closure-compiler.svg
-    :align: left
+    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler.svg
-    :align: left
+    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/pulls/femtopixel/google-closure-compiler-app.svg
-    :align: left
+    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler-app.svg
-    :align: left
+    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png
     :alt: Bitcoin donation
-    :align: left
+    :align: right
     :target: https://m.freewallet.org/id/374ad82e/btc
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png
     :alt: Litecoin donation
-    :align: left
+    :align: right
     :target: https://m.freewallet.org/id/374ad82e/ltc
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png
     :alt: PayPal donation
-    :align: left
+    :align: right
     :target: https://www.paypal.me/jaymoulin
 .. image:: https://beerpay.io/femtopixel/docker-google-closure-compiler-api/badge.svg
     :alt: Beerpay donation
-    :align: left
+    :align: right
     :target: https://beerpay.io/femtopixel/docker-google-closure-compiler-api
+
 
 This image allows you to Compile your JS code using `Google Closure Compiler API <https://developers.google.com/closure/compiler/>`_ in CLI
 
