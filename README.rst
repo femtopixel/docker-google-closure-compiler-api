@@ -4,39 +4,29 @@ Google Closure Compiler API - Docker Image
 
 .. image:: https://img.shields.io/github/release/femtopixel/docker-google-closure-compiler-api.svg
     :alt: latest release
-    :align: right
     :target: http://github.com/femtopixel/docker-google-closure-compiler-api/releases
 .. image:: https://img.shields.io/pypi/v/google-closure-compiler-api.svg
     :alt: PyPI version
-    :align: right
     :target: https://pypi.org/project/google-closure-compiler-api/
 .. image:: https://img.shields.io/docker/pulls/femtopixel/google-closure-compiler.svg
-    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler.svg
-    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/pulls/femtopixel/google-closure-compiler-app.svg
-    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler-app.svg
-    :align: right
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png
     :alt: Bitcoin donation
-    :align: right
     :target: https://m.freewallet.org/id/374ad82e/btc
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png
     :alt: Litecoin donation
-    :align: right
     :target: https://m.freewallet.org/id/374ad82e/ltc
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png
     :alt: PayPal donation
-    :align: right
     :target: https://www.paypal.me/jaymoulin
 .. image:: https://beerpay.io/femtopixel/docker-google-closure-compiler-api/badge.svg
     :alt: Beerpay donation
-    :align: right
     :target: https://beerpay.io/femtopixel/docker-google-closure-compiler-api
 
 
