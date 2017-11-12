@@ -12,10 +12,6 @@ Google Closure Compiler API - Docker Image
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler.svg
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
-.. image:: https://img.shields.io/docker/pulls/femtopixel/google-closure-compiler-app.svg
-    :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
-.. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler-app.svg
-    :target: https://hub.docker.com/r/femtopixel/google-closure-compiler-app/
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png
     :alt: Bitcoin donation
     :target: https://m.freewallet.org/id/374ad82e/btc
