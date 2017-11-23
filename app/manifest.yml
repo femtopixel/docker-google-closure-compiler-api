@@ -15,7 +15,7 @@ manifests:
   -
     image: femtopixel/google-closure-compiler-app:$VERSION-amd64
     platform:
-      architecture: arm64
+      architecture: amd64
       os: linux
   -
     image: femtopixel/google-closure-compiler-app:$VERSION-i386
