@@ -7,7 +7,6 @@ Google Closure Compiler APP - Docker Image
 [![Bitcoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png "Bitcoin donation")](https://m.freewallet.org/id/374ad82e/btc)
 [![Litecoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png "Litecoin donation")](https://m.freewallet.org/id/374ad82e/ltc)
 [![PayPal donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png "PayPal donation")](https://www.paypal.me/jaymoulin)
-[![Beerpay donation](https://beerpay.io/femtopixel/docker-google-closure-compiler-api/badge.svg "Beerpay donation")](https://beerpay.io/femtopixel/docker-google-closure-compiler-api)
 
 This image allows you to Compile your JS code using [Google Closure Compiler APP](https://developers.google.com/closure/compiler/docs/gettingstarted_app) in CLI
 
