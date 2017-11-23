@@ -1,6 +1,10 @@
-FROM java:alpine
+FROM openjdk:jre-alpine as builder
 
-MAINTAINER Jay MOULIN <jaymoulin@gmail.com>
+COPY qemu-*-static /usr/bin/
+
+FROM builder
+
+LABEL maintainer="Jay MOULIN <jaymoulin@gmail.com> <https://twitter.com/MoulinJay>"
 
 RUN apk add wget unzip --update --virtual .build-deps && \
 wget "https://dl.google.com/closure-compiler/compiler-latest.zip" && \
