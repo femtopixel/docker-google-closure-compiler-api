@@ -1,4 +1,4 @@
-Google Closure Compiler API - Docker Image
+Google Closure Compiler APP - Docker Image
 ==========================================
 
 [![latest release](https://img.shields.io/github/release/femtopixel/docker-google-closure-compiler-api.svg "latest release")](http://github.com/femtopixel/docker-google-closure-compiler-api/releases)
