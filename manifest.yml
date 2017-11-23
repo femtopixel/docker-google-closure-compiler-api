@@ -1,0 +1,29 @@
+image: femtopixel/google-closure-compiler:$FULLVERSION
+manifests:
+  -
+    image: femtopixel/google-closure-compiler:$VERSION-arm32v6
+    platform:
+      architecture: arm
+      variant: v6
+      os: linux
+  -
+    image: femtopixel/google-closure-compiler:$VERSION-arm64v8
+    platform:
+      architecture: arm
+      variant: v8
+      os: linux
+  -
+    image: femtopixel/google-closure-compiler:$VERSION-amd64
+    platform:
+      architecture: arm64
+      os: linux
+  -
+    image: femtopixel/google-closure-compiler:$VERSION-i386
+    platform:
+      architecture: 386
+      os: linux
+  -
+    image: femtopixel/google-closure-compiler:$VERSION-s390x
+    platform:
+      architecture: s390x
+      os: linux

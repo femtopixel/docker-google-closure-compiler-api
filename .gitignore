@@ -1,3 +1,6 @@
 build
-google_closure_compiler_api.egg-info
+*.egg-info
+qemu-*-static
 dist
+*.yaml
+.Dockerfile
