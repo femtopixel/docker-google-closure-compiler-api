@@ -2,15 +2,30 @@ VERSION ?= 0.2.0
 FULLVERSION ?= ${VERSION}
 archs = s390x arm32v7 amd64 i386 arm64v8 arm32v6
 
-.PHONY: all build publish latest
-all: build publish latest
+.PHONY: docker build-docker publish-docker latest
+test: install
+	twine upload -r testpypi dist/*
+publish: install
+	twine upload dist/*
+install: clean check
+	sudo python3 setup.py sdist
+check:
+	python3 setup.py check --restructuredtext
 build:
+	mkdir -p build
+dist:
+	mkdir -p dist
+clean: build dist
+	sudo rm -Rf build/*
+	sudo rm -Rf dist/*
+docker: build-docker publish-docker latest
+build-docker:
 	cp /usr/bin/qemu-*-static .
 	$(foreach arch,$(archs), \
 		cat Dockerfile | sed "s/FROM python:alpine/FROM ${arch}\/python:alpine/g" > .Dockerfile; \
 		docker build -t femtopixel/google-closure-compiler:${VERSION}-$(arch) -f .Dockerfile .;\
 	)
-publish:
+publish-docker:
 	docker push femtopixel/google-closure-compiler
 	cat manifest.yml | sed "s/\$$VERSION/${VERSION}/g" > manifest.yaml
 	cat manifest.yaml | sed "s/\$$FULLVERSION/${FULLVERSION}/g" > manifest2.yaml
