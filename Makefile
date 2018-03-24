@@ -1,6 +1,6 @@
-VERSION ?= 0.2.0
+VERSION ?= v20180319
 CACHE = --no-cache=1
-FULLVERSION ?= ${VERSION}
+FULLVERSION ?= v20180319
 archs = s390x arm32v7 amd64 i386 arm64v8 arm32v6
 
 .PHONY: docker build-docker publish-docker latest
