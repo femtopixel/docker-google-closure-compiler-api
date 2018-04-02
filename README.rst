@@ -1,3 +1,7 @@
+ .. image:: https://github.com/femtopixel/docker-google-closure-compiler-api/raw/master/logo.png
+    :alt: latest release
+    :target: http://github.com/femtopixel/docker-google-closure-compiler-api/releases
+
 ==========================================
 Google Closure Compiler API - Docker Image
 ==========================================
