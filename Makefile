@@ -1,7 +1,7 @@
 VERSION ?= v20180319
-CACHE = --no-cache=1
+CACHE ?= --no-cache=1
 FULLVERSION ?= v20180319
-archs = s390x arm32v7 amd64 i386 arm64v8 arm32v6
+archs ?= amd64 i386 arm64v8 arm32v6
 
 .PHONY: docker build-docker publish-docker latest
 test: install
@@ -32,5 +32,5 @@ publish-docker:
 	cat manifest.yaml | sed "s/\$$FULLVERSION/${FULLVERSION}/g" > manifest2.yaml
 	mv manifest2.yaml manifest.yaml
 	manifest-tool push from-spec manifest.yaml
-latest: build
-	FULLVERSION=latest VERSION=${VERSION} make publish
+latest: build-docker
+	FULLVERSION=latest VERSION=${VERSION} make publish-docker
