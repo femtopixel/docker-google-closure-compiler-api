@@ -1,6 +1,6 @@
-VERSION ?= v20180319
+VERSION ?= 0.1.5
 CACHE ?= --no-cache=1
-FULLVERSION ?= v20180319
+FULLVERSION ?= 0.1.5
 archs ?= amd64 i386 arm64v8 arm32v6
 
 .PHONY: docker build-docker publish-docker latest
@@ -34,3 +34,4 @@ publish-docker:
 	manifest-tool push from-spec manifest.yaml
 latest: build-docker
 	FULLVERSION=latest VERSION=${VERSION} make publish-docker
+
