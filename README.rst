@@ -25,6 +25,9 @@ Google Closure Compiler API - Docker Image
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png
     :alt: PayPal donation
     :target: https://www.paypal.me/jaymoulin
+.. image:: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+     :alt: Buy me a coffee
+     :target: https://www.buymeacoffee.com/3Yu8ajd7W
 
 
 This image allows you to Compile your JS code using `Google Closure Compiler API <https://developers.google.com/closure/compiler/>`_ in CLI
