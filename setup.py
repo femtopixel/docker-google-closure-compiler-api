@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     long_description=open("README.rst", 'r').read(),
     author="Jay MOULIN",
-    author_email="jaymoulin@gmail.com",
+    author_email="jay+google_closure_compiler_api@femtopixel.com",
     description="Google closure compiler CLI API",
     include_package_data=True,
     url='http://github.com/femtopixel/docker-google-closure-compiler-api',
