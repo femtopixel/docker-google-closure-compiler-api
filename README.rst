@@ -16,9 +16,6 @@ Google Closure Compiler API - Docker Image
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
 .. image:: https://img.shields.io/docker/stars/femtopixel/google-closure-compiler.svg
     :target: https://hub.docker.com/r/femtopixel/google-closure-compiler/
-.. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/utip.png
-    :alt: Watch Ads
-    :target: https://utip.io/femtopixel
 .. image:: https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png
     :alt: PayPal donation
     :target: https://www.paypal.me/jaymoulin
@@ -27,7 +24,7 @@ Google Closure Compiler API - Docker Image
      :target: https://www.buymeacoffee.com/3Yu8ajd7W
 .. image:: https://badgen.net/badge/become/a%20patron/F96854
     :alt: Become a Patron
-    :target: https://patreon.com/femtopixel
+    :target: https://patreon.com/jaymoulin
 
 
 This image allows you to Compile your JS code using `Google Closure Compiler API <https://developers.google.com/closure/compiler/>`_ in CLI
