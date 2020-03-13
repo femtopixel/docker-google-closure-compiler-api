@@ -26,6 +26,7 @@ Google Closure Compiler API - Docker Image
     :alt: Become a Patron
     :target: https://patreon.com/jaymoulin
 
+(This product is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added.)
 
 This image allows you to Compile your JS code using `Google Closure Compiler API <https://developers.google.com/closure/compiler/>`_ in CLI
 
