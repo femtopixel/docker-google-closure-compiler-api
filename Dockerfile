@@ -1,10 +1,9 @@
-FROM python:alpine3.11 as builder
+FROM python:alpine
 
-COPY qemu-*-static /usr/bin/
-
-FROM builder
-
-LABEL maintainer="Jay MOULIN <https://jaymoulin.me/femtopixel/docker-google-closure-compiler-api> <https://twitter.com/MoulinJay>"
+ARG TARGETPLATFORM
+ARG VERSION
+LABEL maintainer="Jay MOULIN <https://jaymoulin.me/femtopixel/docker-google-closure-compiler-api>"
+LABEL version=${VERSION}-${TARGETPLATFORM}
 
 RUN pip install google-closure-compiler-api
 COPY ./entrypoint.sh /bin/entrypoint
